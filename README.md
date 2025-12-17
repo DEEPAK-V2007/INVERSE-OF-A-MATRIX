@@ -11,11 +11,19 @@ To write a python program to find the inverse of a matrix
 ### Step 4: End the program
 
 ## Program:
+```
+#Program to find the inverse of a matrix.
+#Developed by:DEEPAK.V
+#RegisterNumber:25017595
 
-<img width="1499" height="755" alt="Screenshot 2025-12-17 133207" src="https://github.com/user-attachments/assets/44a85cb5-2b36-4fd6-9a64-efadf405b23c" />
-
+import numpy as np
+A=np.array([[1,0,3],[-1,2,-2],[2,3,-1]])
+X=np.linalg.inv(A)
+print(X)
+```
 ## Output:
 
+<img width="1499" height="755" alt="Screenshot 2025-12-17 133207" src="https://github.com/user-attachments/assets/44a85cb5-2b36-4fd6-9a64-efadf405b23c" />
 <img width="1373" height="379" alt="Screenshot 2025-12-17 133230" src="https://github.com/user-attachments/assets/e71432d7-96e8-40d3-a805-cb363003ec1d" />
 
 ## Result:
